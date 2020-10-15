@@ -6,6 +6,12 @@ image:
 ## ref: http://kubernetes.io/docs/user-guide/images/#updating-images
   pullPolicy: IfNotPresent
 
+## Configure imagePullsecrets
+## imagePullSecrets:
+##   - pullSecretName
+
+imagePullSecrets: []
+
 ## Configure resource requests and limits
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
